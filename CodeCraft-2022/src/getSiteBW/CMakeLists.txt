@@ -6,3 +6,4 @@ aux_source_directory(. DIR_LIB_SRCS)
 add_library(getSiteBW ${DIR_LIB_SRCS})
 
 # TODO: 如有需要，请添加测试并安装目标。
+ 

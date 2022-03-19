@@ -8,7 +8,7 @@
 
 using std::vector;
 
-int numSite;
+int numSite; 
 vector<SiteBandWidth> vecSiteBandWidth;
 
 #endif
