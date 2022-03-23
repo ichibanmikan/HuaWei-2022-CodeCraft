@@ -7,8 +7,9 @@ using std::vector;
 using std::string;
 
 void getCusDemandData() {
-    ifstream infile("/mnt/d/OneDrive - hnu.edu.cn/mylearn/HWSC/线下调试数据/线下调试数据/data/demand.csv");
-    // ifstream infile("/data/demand.csv");
+    // ifstream infile("/mnt/d/OneDrive - hnu.edu.cn/mylearn/HWSC/线下调试数据/线下调试数据/data/demand.csv");
+    ifstream infile("/data/demand.csv");
+    // ifstream infile("/mnt/d/OneDrive - hnu.edu.cn/mylearn/HWSC/SDK/SDK_C++/CodeCraft2022-benchmark/data/demand.csv");
     string lineHead;
     getline(infile, lineHead);
     // cout << lineHead << endl;

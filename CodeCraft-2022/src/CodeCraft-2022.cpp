@@ -4,8 +4,9 @@ int main(){
     getCusDemandData();
     getSiteBW();
     getMaxLatency();
-    // ofstream outfile("/output/solution.txt");
-    ofstream outfile("out.txt");
+    ofstream outfile("/output/solution.txt");
+    // ofstream outfile("out.txt");
+    // ofstream outfile("/mnt/d/OneDrive - hnu.edu.cn/mylearn/HWSC/SDK/SDK_C++/CodeCraft2022-benchmark/output/solution.txt");
     vector<SiteBandWidth> vecTemp=vecSiteBandWidth;
     vector<lastResult> vecResult;
     for(int i=0; i<vecWebStruct.size(); i++){

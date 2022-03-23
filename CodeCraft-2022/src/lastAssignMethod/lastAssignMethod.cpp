@@ -16,8 +16,8 @@ vector<lastResult> lastAssignMethod(int posCus, int mtime){
                 vecSiteBandWidth[i].bandWidth=0;
             } else {
                 lr.numBandW=cusBandWidth;
-                cusBandWidth=0;
                 vecSiteBandWidth[i].bandWidth-=cusBandWidth;
+                cusBandWidth=0;
             }
             vecLastResult.push_back(lr);
         }
